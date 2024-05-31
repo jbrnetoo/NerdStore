@@ -6,7 +6,7 @@ namespace NerdStore.Catalago.Domain
     {
         public Guid CategoriaId { get; set; }
         public string Nome { get; private set; }
-        public string  Descricao { get; private set; }
+        public string Descricao { get; private set; }
         public bool Ativo { get; private set; }
         public decimal Valor { get; private set; }
         public DateTime DataCadastro { get; private set; }
@@ -58,7 +58,7 @@ namespace NerdStore.Catalago.Domain
         {
             if (quantidade < 0) quantidade *= -1;
             if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente");
-            QuantidadeEstoque -= quantidade; 
+            QuantidadeEstoque -= quantidade;
         }
 
         public void ReporEstoque(int quantidade)
