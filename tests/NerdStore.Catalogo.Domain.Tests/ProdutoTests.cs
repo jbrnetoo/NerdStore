@@ -1,4 +1,4 @@
-﻿using NerdStore.Catalago.Domain;
+﻿using NerdStore.Catalogo.Domain;
 using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Catalogo.Domain.Tests

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace NerdStore.Catalago.Domain.Events
+namespace NerdStore.Catalogo.Domain.Events
 {
     public class ProdutoEventHandler : INotificationHandler<ProdutoAbaixoEstoqueEvent>
     {

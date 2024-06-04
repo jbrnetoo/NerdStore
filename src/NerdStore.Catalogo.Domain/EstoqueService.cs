@@ -1,7 +1,7 @@
-﻿using NerdStore.Catalago.Domain.Events;
+﻿using NerdStore.Catalogo.Domain.Events;
 using NerdStore.Core.Bus;
 
-namespace NerdStore.Catalago.Domain
+namespace NerdStore.Catalogo.Domain
 {
     public class EstoqueService : IEstoqueService
     {
